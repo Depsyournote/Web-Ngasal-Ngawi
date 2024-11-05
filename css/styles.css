@@ -1,0 +1,40 @@
+body {
+    overflow-x: hidden; /* Menyembunyikan scrollbar horizontal */
+    background-color: #343a40; /* Latar belakang gelap untuk keseluruhan body */
+}
+
+.header-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #282c34; /* Warna latar belakang header */
+}
+
+.header-content {
+    text-align: center;
+}
+
+.main-content {
+    color: white;
+}
+
+.content-box {
+    background-color: #495057; /* Kotak konten dengan latar belakang lebih terang */
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s; /* Transisi halus saat hover */
+}
+
+.content-box:hover {
+    transform: translateY(-10px); /* Efek hover */
+}
+
+.footer-section {
+    background-color: #282c34;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
